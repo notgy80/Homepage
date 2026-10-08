@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+        <title>Ivan's Webpage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand goldfont" href="index.html">Ivan You</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav w-100">
+                        <li class="nav-item">
+                            <a class="nav-link lightfont" href="research.html">Research</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lightfont" href="life-journey.html">Life Journey</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lightfont" href="hobbies.html">Hobbies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Div -->
+         <div class="container-fluid text-center hero-bg white-bg">
+            <div class="row align-items-center h-100">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 order2">
+                    <hr class="mobile-only">
+                    <span class='display-1 d-block hero-text'>Ivan You</span>
+                    <span class='h1 d-block hero-text'>DSTA Scholar</span>
+                    <span class='h1 d-block hero-text'>ISEF Medallist</span>
+                    <span class='h1 d-block hero-text'>Incoming undergraduate at the University of Cambridge</span>
+                </div>
+                <div class="col-md-5 order1">
+                    <img src="pictures/ivan.jpg" class='hero-img' alt="Ivan pic">
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <!-- About Me Div -->
+        <div class="container-fluid text-center alt-bg">
+            <hr>
+            <div class="row align-items-center h-100">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <img src="pictures/ivan-mirror.jpeg" class='fit' style='width: 75%;' alt="Ivan pic">
+                </div>
+                <div class="col-md-5">
+                    <h1>About Me</h1>
+                    <p class='lead'>Hi, I'm Ivan, an incoming undergraduate at the University of Cambridge. I am a curious and ambitious
+                    student who has a burning passion for STEM and engineering. Through participating in numerous
+                    research competitions, I developed strong problem-solving and social skills. Being a DSTA scholar,
+                    I hope to use my passion for engineering to help strengthen Singapore's defence. In my
+                    free time, I can often be found pursuing my hobbies which include playing sports such as
+                    badminton and football, and playing video games.
+                    </p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <hr class="desktop-only">
+        </div>
+
+        <!-- Experiences and Achievements Div -->
+        <div>
+            <hr>
+            <h1>My Experiences and Achievements</h1>
+            <hr>
+            <!-- Internships -->
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <h1 class='goldfont'>Internships</h1>
+                    </div>
+                </div>
+                <hr>
+                <div class="row align-items-center">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 expandable order2">
+                        <div class="expandable-header">
+                            <div>
+                                <span class='d-block goldfont h4'>Agency for Science Research and Technology (A*STAR) Research Intern</span>
+                                <span class='d-block greyfont h6'>Research to Improve Thermoelectrics</span>
+                            </div>
+                            <span class="chevron h2">▾</span>
+                        </div>
+                        <div class="extra-details">
+                            <span class="greyfont">I worked on the thermoelectric material AgSbTe2, and managed to double its efficiency. Find out how I did this from my </span>
+                            <a href="research.html">research page!</a>
+                        </div>
+                    </div>
+                    <div class="col-md-5 order1">
+                        <img src="pictures/research-internship.jpeg" class='fit' style='width: 90%;' alt="A*STAR">
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+                <hr>
+                <div class="row align-items-center">
+                    <div class="col-1"></div>
+                    <div class="col-md-5 order1">
+                        <img src="pictures/nuspace.jpeg" class='fit' style='width: 85%;' alt="Nuspace">
+                    </div>
+                    <div class="col-md-5 expandable order2">
+                        <div class="expandable-header">
+                            <div>
+                                <span class='d-block goldfont h4'>Nuspace Engineering Intern</span>
+                                <span class='d-block greyfont h6'>Worked on hardware and software of a satellite</span>
+                            </div>
+                            <span class="chevron h2">▾</span>
+                        </div>
+                        <div class="extra-details">
+                            <span class="greyfont">I learned C language and used it to compress files losslessly so that data can be sent to and from a satellite quickly. I also worked on making a hardware kit to teach students about satellites!</span>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+            <hr>
+
+            <!-- Achievements -->
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <h1 class='goldfont'>Achievements</h1>
+                    </div>
+                </div>
+                <hr>
+                <div class="row align-items-center">
+                    <div class="col-1"></div>
+                    <div class="col-md-5 expandable order2">
+                        <div class="expandable-header">
+                            <div>
+                                <span class='d-block goldfont h4'>Defence Science and Technology Agency Scholar</span>
+                                <span class='d-block greyfont h6'>Sponsored to study Engineering at the University of Cambridge</span>
+                            </div>
+                            <span class="chevron h2">▾</span>
+                        </div>
+                        <div class="extra-details">
+                            <span class="greyfont">Receiving the award in July 2027</span>
+                        </div>
+                    </div>
+                    <div class="col-md-5 order1">
+                        <img src="pictures/dsta.JPG" class='fit' style='width: 90%;' alt="DSTA">
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+                <hr>
+                <div class="row align-items-center">
+                    <div class="col-1"></div>
+                    <div class="col-md-5 order1">
+                        <img src="pictures/isef.jpeg" class='fit' style='width: 90%;' alt="ISEF">
+                    </div>
+                    <div class="col-md-5 expandable order2">
+                        <div class="expandable-header">
+                            <div>
+                                <span class='d-block goldfont h4'>International Science and Engineering Fair 4th award</span>
+                                <span class='d-block greyfont h6'>1 of 6 projects to represent Singapore</span>
+                            </div>
+                            <span class="chevron h2">▾</span>
+                        </div>
+                        <div class="extra-details">
+                            <span class="greyfont">Find out more from </span>
+                            <a href="research.html">research page!</a>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+                <hr>
+                <div class="row align-items-center">
+                    <div class="col-1"></div>
+                    <div class="col-md-5 expandable order2">
+                        <div class="expandable-header">
+                            <div>
+                                <span class='d-block goldfont h4'>National STEM Talent Search 2nd place</span>
+                                <span class='d-block greyfont h6'>2nd best student researcher in Singapore</span>
+                            </div>
+                            <span class="chevron h2">▾</span>
+                        </div>
+                        <div class="extra-details">
+                            <span class="greyfont">Find out more from </span>
+                            <a href="research.html">research page!</a>
+                        </div>
+                    </div>
+                    <div class="col-md-5 order1">
+                        <img src="pictures/nsts.jpeg" class='fit' style='width: 100%;' alt="NSTS">
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <!-- My Other Pages Div -->
+        <div class='alt-bg'>
+            <hr>
+            <h1 class='text-center'>Find Out More About Me</h1>
+            <hr>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card position-relative h-100 card-hover-effect mb-3 mx-auto">
+                            <img src="pictures/research.jpeg" class="card-img-top img-cover img-medium" alt="research">
+                            <div class="card-body">
+                                <h5 class="card-title">Research</h5>
+                                <span class="card-text">Find out what I worked on at A*STAR for 2 years</span>
+                                <a href="research.html" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card position-relative h-100 card-hover-effect mb-3 mx-auto">
+                            <img src="pictures/education.jpeg" class="card-img-top img-cover img-medium" alt="education">
+                            <div class="card-body">
+                                <h5 class="card-title">Life Journey</h5>
+                                <span class="card-text">From West Grove, To NUS High, And Now Cambridge</span>
+                                <a href="life-journey.html" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card position-relative h-100 card-hover-effect mb-3 mx-auto">
+                            <img src="pictures/hobbies.jpeg" class="card-img-top img-cover img-medium" alt="hobbies">
+                            <div class="card-body">
+                                <h5 class="card-title">Hobbies</h5>
+                                <span class="card-text">Badminton, Brawl Stars, Travelling and more...</span>
+                                <a href="hobbies.html" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <!-- Contact Div -->
+        <div>
+            <hr>
+            <h1>Connect With Me!</h1>
+            <div class="container text-center">
+                <div class="row align-items-stretch">
+                    <div class="col-md-3">
+                        <div class="card card-small position-relative h-100 card-hover-effect mb-3 mx-auto">
+                            <hr>
+                            <img src="pictures/phone.png" class='card-img-top img-contain img-small' alt="phone">
+                            <div class="card-body">
+                                <span class="card-text">Phone</span>
+                                <h5 class="card-title">+65 9838 2175</h5>
+                                <a href="tel:+6598382175" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card card-small position-relative h-100 card-hover-effect mb-3 mx-auto">
+                            <hr>
+                            <img src="pictures/email.png" class='card-img-top img-contain img-small' alt="email">
+                            <div class="card-body">
+                                <span class="card-text">Email</span>
+                                <h5 class="card-title">ivanyou99@gmail.com</h5>
+                                <a href="mailto:ivanyou99@gmail.com" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card card-small position-relative h-100 card-hover-effect mb-3 mx-auto">
+                            <hr>
+                            <img src="pictures/instagram.png" class='card-img-top img-contain img-small' alt="instagram">
+                            <div class="card-body">
+                                <span class="card-text">Instagram</span>
+                                <h5 class="card-title">@g.y80_</h5>
+                                <a href="https://www.instagram.com/g.y80_?igsi=MWx2cHNnYjJ0emRpaQ%3D%3D&utm_source=qr" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card card-small position-relative h-100 card-hover-effect mb-3 mx-auto">
+                            <hr>
+                            <img src="pictures/linkedin.png" class='card-img-top img-contain img-small' alt="linkedin">
+                            <div class="card-body">
+                                <span class="card-text">LinkedIn</span>
+                                <h5 class="card-title">Ivan You</h5>
+                                <a href="https://www.linkedin.com/in/ivan-you-258074274?utm_source=share_via&utm_content=profile&utm_medium=member_ios" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </body>
+</html>
